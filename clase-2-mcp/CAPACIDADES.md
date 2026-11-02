@@ -22,3 +22,10 @@ El archivo contiene título, requisito, pasos, datos, resultado esperado y prior
 - Al principio hubo problemas de permisos de PowerShell y conexión durante la instalación.
 - Fue necesario ejecutar Codex mediante `codex.cmd`.
 - El agente requiere autorización para ejecutar determinadas herramientas.
+## 5. Tiempo ahorrado
+
+- **Tiempo estimado manualmente:** entre 15 y 20 minutos para explorar, diseñar, redactar y documentar el caso de prueba.
+- **Tiempo con nuestro MCP:** Codex tardó 1 minuto y 10 segundos en generar y guardar el caso.
+- **Ahorro potencial:** el MCP agiliza considerablemente la creación y documentación de casos de prueba.
+
+**Nota:** El tiempo de 1 minuto y 10 segundos corresponde a la generación del caso, no a la ejecución y validación completa de la prueba.
