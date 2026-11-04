@@ -46,19 +46,23 @@ Captura de la suite en Qase con tus casos: `evidencias/qase-suite-casos.png`
 ### Caso 1: Registro exitoso con datos válidos.
 - Precondiciones: La página de registro de MiniModa está disponible. Se utilizarán datos ficticios y válidos para completar el formulario.
 - Pasos: Ingresar nombre Ana Pérez, email ana.prueba@example.com, contraseña Moda1234, confirmar contraseña Moda1234, edad 25, seleccionar Argentina, marcar la casilla de términos y pulsar "Crear cuenta".
-- Resultado esperado: El formulario acepta los datos y permite completar el registro sin errores de validación. Mensaje final: A VERIFICAR.
+
+- Resultado esperado: El formulario acepta los datos y permite completar el registro sin errores de validación. Mensaje final: ¡Registro exitoso! Bienvenido/a a MiniModa, ANA PEREZ. Te enviamos un email de bienvenida (ver Bandeja).
+
 - Evidencia: `evidencias/qase-MM-4-registro-alta-exitosa.png`
 
 ### Caso 2: Registro: contraseña de 7 caracteres
 - Precondiciones: La página de registro de MiniModa está disponible. Los demás campos se completarán con datos válidos.
 - Pasos: Ingresar nombre Ana Pérez, email ana.prueba@example.com, contraseña Abc1234, confirmar contraseña Abc1234, edad 25, seleccionar Argentina, marcar la casilla de términos y pulsar "Crear cuenta".
-- Resultado esperado: El sistema rechaza la contraseña porque contiene 7 caracteres y el mínimo permitido es 8. El registro no debe completarse. Mensaje exacto: A VERIFICAR.
+- Resultado esperado: El sistema rechaza la contraseña porque contiene 7 caracteres y el mínimo permitido es 8. El registro no debe completarse. Mensaje exacto: La contraseña debe tener al menos 8 caracteres.
+
 - Evidencia: `evidencias/qase-MM-5-registro-password-7.png`
 
 ### Caso 3:Registro: edad inferior al mínimo permitido
 - Precondiciones: La página de registro de MiniModa está disponible. Los demás campos se completarán con datos válidos.
 - Pasos: Ingresar nombre Ana Pérez, email ana.prueba@example.com, contraseña Moda1234, confirmar contraseña Moda1234, edad 12, seleccionar Argentina, marcar la casilla de términos y pulsar "Crear cuenta".
-- Resultado esperado: El sistema rechaza el registro porque la edad ingresada es 12 y el mínimo permitido es 13. El registro no debe completarse. Mensaje exacto: A VERIFICAR.
+- Resultado esperado: El sistema rechaza el registro porque la edad ingresada es 12 y el mínimo permitido es 13. El registro no debe completarse. Mensaje exacto: La edad debe estar entre 13 y 120.
+
 - Evidencia: `evidencias/qase-MM-6-registro-edad-12.png`
 
 ## 7. Mapa del harness
