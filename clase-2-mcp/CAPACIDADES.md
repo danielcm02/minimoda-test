@@ -29,3 +29,28 @@ El archivo contiene título, requisito, pasos, datos, resultado esperado y prior
 - **Ahorro potencial:** el MCP agiliza considerablemente la creación y documentación de casos de prueba.
 
 **Nota:** El tiempo de 1 minuto y 10 segundos corresponde a la generación del caso, no a la ejecución y validación completa de la prueba.
+
+## 6. Caso negativo generado con MCP
+
+- **Herramienta utilizada:** `crear_caso_prueba`.
+- **Caso:** MM-MCP-002 – Intentar agregar al carrito más unidades que el stock disponible.
+- **Producto:** Body Manga Larga Estrellitas ($8.500).
+- El MCP generó el caso base con el requisito, los pasos, los datos, el resultado esperado y la prioridad.
+- **Corrección manual:** se agregó el ID MM-MCP-002, las precondiciones y se reorganizaron las secciones del caso.
+
+### Ejecución y resultado observado
+
+- **Stock observado:** 12 unidades.
+- **Cantidad ingresada:** 13 unidades.
+- **Resultado esperado:** impedir agregar una cantidad superior al stock disponible.
+- **Resultado observado:** MiniModa permitió avanzar hasta Checkout mostrando 13 unidades.
+- **Subtotal:** $110.500.
+- **Envío:** $3.500.
+- **Total estimado:** $114.000.
+- **Conclusión:** el comportamiento observado no cumple el resultado esperado.
+- **Evidencia:** `evidencia/04-caso-negativo-checkout.png`.
+- El pago no se completó; por tanto, no se verificó la finalización de la compra.
+
+### Aprendizaje
+
+El MCP permite generar y guardar casos de prueba, pero el criterio de QA sigue siendo necesario para revisar, completar, ejecutar y documentar los resultados reales.
