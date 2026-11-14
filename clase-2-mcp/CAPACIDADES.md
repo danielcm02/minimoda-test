@@ -54,3 +54,13 @@ El archivo contiene título, requisito, pasos, datos, resultado esperado y prior
 ### Aprendizaje
 
 El MCP permite generar y guardar casos de prueba, pero el criterio de QA sigue siendo necesario para revisar, completar, ejecutar y documentar los resultados reales.
+
+### Comparación de tiempo – Caso negativo MM-MCP-002
+
+- **Tiempo manual:** 10 minutos y 8 segundos.
+- **Tiempo con MCP:** 54 segundos, incluyendo creación, guardado y corrección del caso.
+- **Tiempo ahorrado:** 9 minutos y 14 segundos.
+- **Reducción del tiempo:** aproximadamente 91,1 %.
+
+Esta medición corresponde al proceso de creación y documentación del caso negativo. No incluye la ejecución y validación de la prueba.
+
