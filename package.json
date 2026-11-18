@@ -1,0 +1,23 @@
+{
+  "name": "minimoda-test",
+  "version": "1.0.0",
+  "description": "Repo de práctica de testing para **MiniModa**, una tienda online ficticia de ropa para chicos.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcm02/minimoda-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danielcm02/minimoda-test/issues"
+  },
+  "homepage": "https://github.com/danielcm02/minimoda-test#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6"
+  }
+}
